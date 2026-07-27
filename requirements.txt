@@ -3,3 +3,6 @@ langchain-text-splitters
 langchain-community
 sentence-transformers
 faiss-cpu
+streamlit
+python-dotenv
+google-genai

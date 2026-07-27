@@ -1,5 +1,10 @@
 import os
 import sys
+
+# Disable TensorFlow check in HuggingFace Transformers to avoid Keras 3 conflict
+os.environ["USE_TF"] = "0"
+os.environ["USE_TORCH"] = "1"
+
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 

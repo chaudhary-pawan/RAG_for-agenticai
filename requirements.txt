@@ -1,0 +1,5 @@
+pymupdf4llm
+langchain-text-splitters
+langchain-community
+sentence-transformers
+faiss-cpu
